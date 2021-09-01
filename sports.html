@@ -1,0 +1,41 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The SportsDB</title>
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+
+<body class="bg-light">
+    <header class="text-center py-4">
+        <h1 class="text-success">The SportsDB</h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- search input -->
+            <div class="input-group mx-auto">
+                <input type="text" id="input-field">
+                <button onclick="loadTeams()">Search</button>
+            </div>
+            <!-- team detail -->
+            <div id="team-detail"></div>
+            <!-- error -->
+            <div id="error"></div>
+            <!-- search result -->
+            <div id="search-team"></div>
+        </div>
+
+
+    </main>
+
+
+    <script src="sports.js"></script>
+</body>
+
+</html>
