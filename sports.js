@@ -64,3 +64,19 @@ const displayTeamDetail = team => {
     `;
     teamDetailContainer.appendChild(div);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+// const detailContainer = document.getElementById('team_detail');
+// detailContainer.classList.add('open');
+// // close team detail
+// const closeDisplay = () => document.getElementById('team_detail').classList.remove('open');
